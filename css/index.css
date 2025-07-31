@@ -1,32 +1,98 @@
 *{
  margin: 0 auto;
-
 }
+
+.social_container{
+    width: 100%;
+    height: 50px;
+    background-color: #081f37;
+    border-bottom: solid 5px #1e549f;
+}
+
 .top_bar_container{
     width: 1000px;
-    height: 125px;
+    height: 100px;
     border-bottom: 1px solid #d8d8d8;
 }
 
 .logo_container{
     width: 300px;
-    height: 125px;
+    height: 100px;
     float: left;
-}
-.contact_container{
-    width: 700px;
-    height: 125px;
-    float: right;
 }
 
 .logo{
-    width: 100px;
-    padding-top: 24px;
+    width: 70px;
+    padding-top: 15px;
     float: left;
 }
 
 .logo_text{
     float: left;
-    text-align: center;
-    line-height: 125px;
+    line-height: 100px;
+    padding-left: 10px;
+}
+
+.contact_container{
+    width: 700px;
+    height: 100px;
+    float: right;
+}
+
+.contact_box{
+    width: 200px;
+    height: 50px;
+    border-left: 1px solid #d8d8d8;
+    float: right;
+    margin-top: 25px;
+}
+
+.whatsapp{
+    padding-top: 3px;
+    padding-left: 30px;
+    width: 40px;
+    float: left;
+}
+
+.whatsapp_text{
+    float: left;
+    line-height: 50px;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.phone{
+    padding-top: 3px;
+    padding-left: 25px;
+    width: 40px;
+    float: left;
+}
+
+.phone_text{
+    float: left;
+    line-height: 50px;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.email_button{
+  border: solid 2px #1e549f;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 12px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  float: right;
+  
+}
+
+.email_button:hover{
+  background-color:  #1e549f;
+  transition: 0.4s ease;
+  color: white;
 }
